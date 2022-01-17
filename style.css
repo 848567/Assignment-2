@@ -1,0 +1,47 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+body{font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+ 
+              .web-title{
+        position: absolute;
+        left: 8.33%;
+        right: 74.79%;
+        top: 2.63%;
+             }
+/* first section */
+.first-section{display: flex;
+justify-content: space-evenly;
+padding: 10px; }
+/* first section left-side */
+.left-side{width: 440px;
+    height: 220px;
+background-color:#AAAAAA ;
+border-radius: 10px;
+align-items: center;}
+/* left side button */
+.button{background-color: rgb(122, 12, 122);
+text-decoration: none;
+border-radius: 5px;
+color: white;font-weight: 1000px;
+}
+/* firsrt section rigth side */
+.right-side{
+    width: 440px;
+height: 414px;
+}
+/* popular-collection */
+
+.collection-tittle{text-align: center;}
+.section-collection img{width: 250px;
+    height: 200px; }
+   .display-flex{display: grid;
+ grid-template-columns: repeat(3, 1fr);
+justify-content: space-between;}
+.rating{color: orange;
+    width: 16px;
+    height: 16px; }
+    .feature img{height: 250px;
+    width: 300px; }
+    .feature{display: flex;
+    padding: 10px;}
